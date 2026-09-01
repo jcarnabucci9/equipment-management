@@ -5,7 +5,7 @@ import { Part } from "@/interfaces/part";
 import { Supplier } from "@/interfaces/supplier";
 
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "https://localhost:7027/api";
+  process.env.API_URL || "https://localhost:7027/api";
 
 export interface CreateAssetDto {
   tagId?: string;
